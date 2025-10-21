@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roger Federer| Professional Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0a192f 0%, #172a45 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 450px;
+            text-align: center;
+        }
+
+        .profile-section {
+            margin-bottom: 30px;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #1e3a8a;
+            margin: 0 auto 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            background-color: #1e3a8a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .name-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .verified-badge {
+            color: #1e90ff;
+            font-size: 22px;
+        }
+
+        .tagline {
+            color: #a0aec0;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link-item {
+            background: rgba(30, 58, 138, 0.7);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 12px;
+            padding: 16px 20px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .link-item:hover {
+            background: rgba(30, 58, 138, 0.9);
+            transform: translateY(-3px);
+            box-shadow: 0 7px 14px rgba(0, 0, 0, 0.2);
+            border-color: rgba(59, 130, 246, 0.5);
+        }
+
+        .link-item i {
+            font-size: 20px;
+        }
+
+        .link-text {
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(30, 58, 138, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-icon:hover {
+            background: rgba(30, 58, 138, 0.9);
+            transform: translateY(-3px);
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #a0aec0;
+            font-size: 14px;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                max-width: 100%;
+            }
+            
+            .profile-pic {
+                width: 130px;
+                height: 130px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-section">
+            <div class="profile-pic">
+                <img src="https://i.postimg.cc/KjdrW0YP/39889069459c234d2f8171d4fd9bfc03.jpg" alt="Reggie Jackson">
+            </div>
+            <div class="name-section">
+                <h1>Roger Federer</h1>
+                <div class="verified-badge">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+            </div>
+            <p class="tagline">Professional Athlete & Entrepreneur</p>
+        </div>
+
+        <div class="links-container">
+            <a href="https://t.me/rogerfederer2025" class="link-item" target="_blank">
+                <i class="fab fa-telegram"></i>
+                <span class="link-text">Direct Message</span>
+            </a>
+
+        <div class="social-icons">
+            <a href="https://x.com/rogerfederer?t=jtZQ6vNnCPKhTO6KvHUROA&s=09" class="social-icon">
+               <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/rogerfederer?igsh=MTRzZ2dwd3gxM3hzag==" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://youtube.com/@rogerfederer?si=ji36dTQwEZyP_zqH" class="social-icon">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>©2025 Roger Federer. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        // Add click animation to link items
+        document.querySelectorAll('.link-item').forEach(item => {
+            item.addEventListener('click', function() {
+                this.style.transform = 'scale(0.98)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 150);
+            });
+        });
+
+        // Add loading animation for profile picture
+        const profilePic = document.querySelector('.profile-pic img');
+        profilePic.addEventListener('load', function() {
+            this.style.opacity = '1';
+            this.style.transition = 'opacity 0.5s ease';
+        });
+        
+        // Set initial opacity to 0 for fade-in effect
+        profilePic.style.opacity = '0';
+    </script>
+</body>
+</html> 
